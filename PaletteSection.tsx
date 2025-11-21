@@ -1,5 +1,5 @@
 import React from 'react';
-import { PaletteData, GradientDirection } from '../types';
+import { PaletteData, GradientDirection } from './types';
 import { Copy } from 'lucide-react';
 
 interface PaletteSectionProps {
