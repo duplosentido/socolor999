@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, ArrowLeft, ArrowDownRight } from 'lucide-react';
-import { GradientDirection } from '../types';
+import { GradientDirection } from './types';
 
 interface ControlBarProps {
   direction: GradientDirection;

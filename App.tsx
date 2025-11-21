@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import AuroraBackground from './components/AuroraBackground';
-import ColorPickerSection from './components/ColorPickerSection';
-import PaletteSection from './components/PaletteSection';
-import TypographySection from './components/TypographySection';
-import ControlBar from './components/ControlBar';
-import GeminiAssistant from './components/GeminiAssistant';
-import { generateProPalettes, randomColor } from './utils/colorUtils';
+import AuroraBackground from './AuroraBackground';
+import ColorPickerSection from './ColorPickerSection';
+import PaletteSection from './PaletteSection';
+import TypographySection from './TypographySection';
+import ControlBar from './ControlBar';
+import GeminiAssistant from './GeminiAssistant';
+import { generateProPalettes, randomColor } from './colorUtils';
 import { FONT_STYLES, INITIAL_COLOR, INITIAL_CONTENT } from './constants';
 import { PaletteData, TypographyContent, FontStyle, LayoutType, GradientDirection, AIAssistantResponse } from './types';
 

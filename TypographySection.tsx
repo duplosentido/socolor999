@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
-import { FontStyle, TypographyContent, LayoutType, PaletteData, GradientDirection } from '../types';
-import { isLight } from '../utils/colorUtils';
+import { FontStyle, TypographyContent, LayoutType, PaletteData, GradientDirection } from './types';
+import { isLight } from './colorUtils';
 import { Image as ImageIcon, Layers, Loader2, Download, Upload, Trash2 } from 'lucide-react';
 import { toPng, toJpeg } from 'html-to-image';
 
