@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { GoogleGenAI, Type } from "@google/genai";
-import { AIAssistantResponse } from '../types';
+import { AIAssistantResponse } from './types';
 import { Sparkles, Loader2, ArrowRight } from 'lucide-react';
 
 interface GeminiAssistantProps {
